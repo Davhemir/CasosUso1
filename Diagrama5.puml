@@ -1,0 +1,12 @@
+@startuml
+
+:Cliente: as c
+:Cliente vip: as cv
+
+(Reservar vuelo) as rv
+(Elegir asientos) as es
+
+c <|-- cv
+c-->rv
+cv-->es
+@enduml
