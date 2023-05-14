@@ -1,0 +1,20 @@
+@startuml
+:Usuario: as u
+:Administrador: as a
+
+(Iniciar sesión) as i
+(Recuperar contraseña) as rc
+(Modificar contraseña) as mc
+(Cerar sesión) as cs
+(Registrar usuario) as ru
+(Instalar programa) as ip
+
+u<|-a
+u --> i
+u --> rc
+u --> mc
+u --> cs
+a-->ru
+a-->ip
+
+@enduml
