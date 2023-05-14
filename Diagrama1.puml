@@ -1,0 +1,18 @@
+@startuml
+
+:Cliente: as c
+:Restaurante: as r
+
+rectangle {
+(Mostrar menú) as u1
+(Pedir comida) as u2
+}
+(Entregar comida) as u3
+
+c --> u1
+r --> u1
+c --> u2
+r --> u3
+
+
+@enduml
