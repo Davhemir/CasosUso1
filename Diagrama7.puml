@@ -1,0 +1,23 @@
+@startuml
+
+:new Actor: as na
+
+(Identificarse) as i
+(Pagar) as p
+(Elegir mensajero) as em
+(Confirmar) as c
+(Pagar con tarjeta) as pt
+(Pagar con transferencia) as pe
+(Registrarse) as r
+
+p <|-- pt
+p <|-- pe
+r.>i : <<extend>>
+na -> i
+na -> p
+na -> em
+na -> c
+
+
+
+@enduml
