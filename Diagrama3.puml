@@ -1,0 +1,7 @@
+@startuml
+
+(Acceder) as a
+(Registrarse) as r
+
+r .> a : <<extend>>
+@enduml
