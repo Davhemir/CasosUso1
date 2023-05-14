@@ -1,0 +1,16 @@
+@startuml
+
+:cliente: as c
+
+(Confirmar pedido) as cp
+(Cancelar pedido) as cnp
+(Devolver cambio) as dc
+
+c--> cp
+c--> cnp
+cp..>dc
+cnp.> dc
+
+
+
+@enduml
