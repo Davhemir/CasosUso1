@@ -1,0 +1,9 @@
+@startuml
+
+(Pagar) as p
+(Pagar con tarjeta) as pt
+(Pagar en efectivo) as pe
+
+p<|--pt
+p<|--pe
+@enduml
