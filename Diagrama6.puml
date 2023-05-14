@@ -1,0 +1,20 @@
+@startuml
+
+:Cliente: as c
+
+(Meter dinero) as m
+(Pedir azucar) as pa
+(Pedir producto) as pp
+(Cancelar) as ca
+(Devolver dinero) as dd
+
+c --> m
+c --> pa
+c --> pp
+c --> ca
+
+pp .> dd : <<include>>
+ca .> dd : <<include>>
+
+
+@enduml

@@ -8,8 +8,8 @@
 
 c--> cp
 c--> cnp
-cp..>dc
-cnp.> dc
+cp..>dc : <<include>>
+cnp.> dc : <<include>>
 
 
 
